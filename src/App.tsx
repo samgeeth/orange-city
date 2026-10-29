@@ -688,81 +688,13 @@ Sitemap: https://www.orangecitynaturals.example/sitemap.xml`
       {/* Top Academic Assignment Command Bar */}
       <div className="bg-[#2D241E] text-white border-b border-[#44372E] px-4 py-2.5 text-xs flex flex-wrap items-center justify-between gap-3 sticky top-0 z-50 shadow-md">
         <div className="flex items-center gap-2">
-          <span className="bg-[#D9480F] text-white font-bold px-2 py-0.5 rounded text-[11px] tracking-wide">
-            UI/UX ASSIGNMENT
-          </span>
+
           <span className="font-semibold text-[#F0E6DC] hidden sm:inline">
             Orange City Naturals · Nagpur Oranges Project
           </span>
         </div>
 
-        {/* View / Tab Switcher */}
-        <div className="flex items-center gap-1 bg-[#1E1712] p-1 rounded-lg border border-[#3E2E23]">
-          <button
-            onClick={() => setActiveTab('website')}
-            className={`px-3 py-1 rounded font-medium transition flex items-center gap-1.5 ${
-              activeTab === 'website'
-                ? 'bg-[#D9480F] text-white shadow-sm'
-                : 'text-[#C7B5A7] hover:text-white'
-            }`}
-            title="Interactive Website View"
-          >
-            <Eye className="w-3.5 h-3.5" />
-            <span>Live Website</span>
-          </button>
 
-          <button
-            onClick={() => setActiveTab('defense')}
-            className={`px-3 py-1 rounded font-medium transition flex items-center gap-1.5 ${
-              activeTab === 'defense'
-                ? 'bg-[#D9480F] text-white shadow-sm'
-                : 'text-[#C7B5A7] hover:text-white'
-            }`}
-            title="Lecturer Defense & Explanation Guide"
-          >
-            <BookOpen className="w-3.5 h-3.5" />
-            <span>Lecturer Guide</span>
-          </button>
-
-          <button
-            onClick={() => setActiveTab('checklist')}
-            className={`px-3 py-1 rounded font-medium transition flex items-center gap-1.5 ${
-              activeTab === 'checklist'
-                ? 'bg-[#D9480F] text-white shadow-sm'
-                : 'text-[#C7B5A7] hover:text-white'
-            }`}
-            title="Testing & Screenshot Checklist"
-          >
-            <Camera className="w-3.5 h-3.5" />
-            <span>Screenshot Checklist</span>
-          </button>
-
-          <button
-            onClick={() => setActiveTab('audit')}
-            className={`px-3 py-1 rounded font-medium transition flex items-center gap-1.5 ${
-              activeTab === 'audit'
-                ? 'bg-[#D9480F] text-white shadow-sm'
-                : 'text-[#C7B5A7] hover:text-white'
-            }`}
-            title="SEO & Accessibility Audit"
-          >
-            <ShieldCheck className="w-3.5 h-3.5" />
-            <span>SEO Audit</span>
-          </button>
-
-          <button
-            onClick={() => setActiveTab('code')}
-            className={`px-3 py-1 rounded font-medium transition flex items-center gap-1.5 ${
-              activeTab === 'code'
-                ? 'bg-[#D9480F] text-white shadow-sm'
-                : 'text-[#C7B5A7] hover:text-white'
-            }`}
-            title="Pure HTML/CSS/JS Source Code Inspector"
-          >
-            <Code className="w-3.5 h-3.5" />
-            <span>Source Code</span>
-          </button>
-        </div>
 
         {/* Viewport Resizer for Screenshots */}
         {activeTab === 'website' && (
@@ -804,10 +736,7 @@ Sitemap: https://www.orangecitynaturals.example/sitemap.xml`
             Skip to main content
           </a>
 
-          {/* Academic notice banner */}
-          <div className="bg-[#FFF3CD] text-[#723B00] border-b border-[#FFEEBA] px-4 py-2 text-xs text-center">
-            <span>🎓 <strong>Student Assignment Preview:</strong> Orange City Naturals is an academic UI/UX concept project. Contact info and URLs are demonstration examples.</span>
-          </div>
+
 
           {/* Website Header */}
           <header className="bg-white border-b border-[#F0DFCB] sticky top-0 z-40 shadow-sm">
