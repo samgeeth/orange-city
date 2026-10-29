@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Dried Orange Peel Herbal Tea with tulsi and ginger">
+  <defs>
+    <linearGradient id="teaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF9F1"/>
+      <stop offset="100%" stop-color="#EDE6D6"/>
+    </linearGradient>
+    <linearGradient id="teaLiquid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFB300" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#E65100" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#8D4004" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="shadowT" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#4E342E" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" rx="16" fill="url(#teaBg)"/>
+  <ellipse cx="300" cy="355" rx="150" ry="22" fill="#3E2723" opacity="0.15"/>
+
+  <!-- Wooden Coaster -->
+  <ellipse cx="300" cy="325" rx="135" ry="32" fill="#BCAAA4"/>
+  <ellipse cx="300" cy="320" rx="135" ry="32" fill="#D7CCC8"/>
+  <ellipse cx="300" cy="318" rx="125" ry="27" fill="#EFEBE9"/>
+
+  <!-- Tea Cup and Handle -->
+  <g filter="url(#shadowT)">
+    <!-- Cup handle -->
+    <path d="M370 200 C430 200 435 270 365 270" stroke="#FFFFFF" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M370 200 C420 200 425 270 365 270" stroke="#D7CCC8" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+    <!-- Cup Body (Glass or porcelain) -->
+    <path d="M220 170 L240 300 C245 320 355 320 360 300 L380 170 Z" fill="#FFFFFF" fill-opacity="0.4" stroke="#FFFFFF" stroke-width="3"/>
+
+    <!-- Tea Liquid inside Cup -->
+    <path d="M230 195 L244 295 C248 314 352 314 356 295 L370 195 Z" fill="url(#teaLiquid)"/>
+    <ellipse cx="300" cy="195" rx="70" ry="16" fill="#FFA000"/>
+    <ellipse cx="300" cy="195" rx="64" ry="13" fill="#FFB74D"/>
+
+    <!-- Peel curl floating in tea -->
+    <path d="M280 193 Q295 188 310 196 Q325 204 335 194" stroke="#E65100" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+    <!-- Glass cup highlights -->
+    <path d="M235 190 L245 285" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- Steam Wafts -->
+  <path d="M275 160 Q265 130 280 100 Q295 70 285 45" stroke="#FFFFFF" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M305 155 Q320 125 305 95 Q290 65 310 40" stroke="#FFFFFF" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M335 160 Q345 135 330 105 Q315 75 330 50" stroke="#FFFFFF" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Dried Peel ribbons & Tulsi leaves on saucer / table -->
+  <!-- Dried peel ribbon 1 -->
+  <path d="M150 330 Q170 310 195 325 Q220 340 240 325" stroke="#EF6C00" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <!-- Tulsi / Holy Basil sprig -->
+  <g transform="translate(160, 290) rotate(-20)">
+    <path d="M0 25 Q15 0 35 5 Q25 30 0 25 Z" fill="#2E7D32"/>
+    <path d="M0 25 L30 8" stroke="#1B5E20" stroke-width="1.5"/>
+    <path d="M12 28 Q-5 12 10 0 Q25 15 12 28 Z" fill="#43A047"/>
+  </g>
+
+  <!-- Ginger slice -->
+  <ellipse cx="440" cy="330" rx="26" ry="15" fill="#FFE082" stroke="#D7CCC8" stroke-width="2" transform="rotate(-15 440 330)"/>
+  <ellipse cx="440" cy="330" rx="21" ry="11" fill="#FFF9C4" transform="rotate(-15 440 330)"/>
+
+  <!-- Herbal Wellness Badge -->
+  <g transform="translate(42, 38)">
+    <rect width="145" height="34" rx="17" fill="#2E7D32"/>
+    <text x="72" y="22" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">TULSI &amp; GINGER</text>
+  </g>
+</svg>

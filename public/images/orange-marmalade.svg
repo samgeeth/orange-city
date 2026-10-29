@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Homemade Nagpur Orange Marmalade in a glass jar">
+  <defs>
+    <linearGradient id="jamBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="100%" stop-color="#FFE8D6"/>
+    </linearGradient>
+    <linearGradient id="jamAmber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFA000"/>
+      <stop offset="60%" stop-color="#E65100"/>
+      <stop offset="100%" stop-color="#BF360C"/>
+    </linearGradient>
+    <radialGradient id="jarGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFD54F" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#BF360C" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadowM" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#5D4037" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="400" rx="16" fill="url(#jamBg)"/>
+  <circle cx="280" cy="220" r="140" fill="#FFE0B2" opacity="0.35"/>
+  <ellipse cx="290" cy="355" rx="130" ry="22" fill="#4E342E" opacity="0.16"/>
+
+  <!-- Marmalade Jar -->
+  <g filter="url(#shadowM)">
+    <!-- Jar Body Glass Outer -->
+    <rect x="200" y="150" width="180" height="190" rx="28" fill="#FFFFFF" fill-opacity="0.2" stroke="#FFFFFF" stroke-width="2"/>
+    <!-- Jam Fill -->
+    <rect x="206" y="160" width="168" height="174" rx="22" fill="url(#jamAmber)"/>
+    <rect x="206" y="160" width="168" height="174" rx="22" fill="url(#jarGlow)"/>
+
+    <!-- Peel Bits floating inside -->
+    <path d="M225 190 Q240 185 255 195" stroke="#FFE082" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M290 180 Q305 190 320 182" stroke="#FFD54F" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M240 240 Q255 245 270 238" stroke="#FFE082" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <path d="M310 260 Q330 255 345 268" stroke="#FFE082" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <path d="M235 300 Q255 305 275 295" stroke="#FFD54F" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M295 315 Q310 310 330 320" stroke="#FFE082" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+    <!-- Jar Neck -->
+    <rect x="225" y="132" width="130" height="24" rx="6" fill="#FFFFFF" fill-opacity="0.3" stroke="#FFFFFF" stroke-width="2"/>
+
+    <!-- Cloth Cover & Twine Ribbon -->
+    <path d="M190 135 Q290 120 390 135 L380 150 Q290 142 200 150 Z" fill="#D7CCC8"/>
+    <!-- Gingham or checkered texture pattern -->
+    <path d="M210 133 L370 133 L360 148 L220 148 Z" fill="#EFEBE9"/>
+    <!-- Twine String -->
+    <rect x="215" y="142" width="150" height="4" rx="2" fill="#8D6E63"/>
+    <!-- Twine Bow -->
+    <ellipse cx="290" cy="144" rx="14" ry="7" fill="none" stroke="#6D4C41" stroke-width="2.5"/>
+    <path d="M285 147 Q270 165 265 178" stroke="#6D4C41" stroke-width="2.5" fill="none"/>
+    <path d="M295 147 Q305 165 312 176" stroke="#6D4C41" stroke-width="2.5" fill="none"/>
+
+    <!-- Jar Front Label -->
+    <rect x="225" y="210" width="130" height="85" rx="8" fill="#FFFDF7" stroke="#D7CCC8" stroke-width="1.5"/>
+    <text x="290" y="232" font-family="Georgia, serif" font-size="11" font-weight="700" fill="#E65100" text-anchor="middle">ORANGE CITY</text>
+    <text x="290" y="250" font-family="Georgia, serif" font-size="14" font-weight="800" fill="#3E2723" text-anchor="middle">MARMALADE</text>
+    <line x1="245" y1="258" x2="335" y2="258" stroke="#FFB74D" stroke-width="1"/>
+    <text x="290" y="271" font-family="Segoe UI, sans-serif" font-size="8.5" font-weight="700" fill="#2E7D32" text-anchor="middle">WITH PURE JAGGERY</text>
+    <text x="290" y="284" font-family="Segoe UI, sans-serif" font-size="7.5" fill="#757575" text-anchor="middle">THICK-CUT PEEL • 350 G</text>
+
+    <!-- Glass gloss curve -->
+    <path d="M216 170 L216 320" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.45"/>
+  </g>
+
+  <!-- Wooden Spoon / Spreader resting to the right -->
+  <g filter="url(#shadowM)" transform="translate(425, 230) rotate(28)">
+    <rect x="-8" y="-120" width="16" height="150" rx="8" fill="#A1887F"/>
+    <ellipse cx="0" cy="45" rx="20" ry="32" fill="#8D6E63"/>
+    <!-- Jam dollop on spoon -->
+    <ellipse cx="0" cy="42" rx="14" ry="22" fill="#E65100"/>
+    <ellipse cx="-2" cy="38" rx="8" ry="12" fill="#FFB74D" opacity="0.6"/>
+  </g>
+
+  <!-- Handmade Jaggery Badge -->
+  <g transform="translate(42, 38)">
+    <rect width="135" height="34" rx="17" fill="#8D6E63"/>
+    <text x="67" y="22" font-family="Segoe UI, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">NO WHITE SUGAR</text>
+  </g>
+</svg>

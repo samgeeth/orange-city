@@ -1,0 +1,8 @@
+# Orange City Naturals - Robots.txt
+# Controls web crawler indexing for production and academic evaluation
+
+User-agent: *
+Allow: /
+
+# XML Sitemap location (Demonstration URL - change to live domain upon deployment)
+Sitemap: https://www.orangecitynaturals.example/sitemap.xml

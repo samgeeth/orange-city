@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Fresh harvest of ripe Nagpur oranges with natural green leaves">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8E7"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFECB3" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FFE0B2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orange1" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFA726"/>
+      <stop offset="65%" stop-color="#FB8C00"/>
+      <stop offset="100%" stop-color="#D84315"/>
+    </radialGradient>
+    <radialGradient id="orange2" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FFB74D"/>
+      <stop offset="60%" stop-color="#F57C00"/>
+      <stop offset="100%" stop-color="#BF360C"/>
+    </radialGradient>
+    <radialGradient id="slicePulp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE082"/>
+      <stop offset="70%" stop-color="#FFA726"/>
+      <stop offset="100%" stop-color="#F57C00"/>
+    </radialGradient>
+    <linearGradient id="leafGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+    <linearGradient id="leafGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A5D6A7"/>
+      <stop offset="100%" stop-color="#388E3C"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#795548" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded card -->
+  <rect width="600" height="400" rx="16" fill="url(#bgGrad)"/>
+  <circle cx="300" cy="180" r="180" fill="url(#sunGlow)"/>
+
+  <!-- Subtle ground shadow for oranges -->
+  <ellipse cx="230" cy="335" rx="130" ry="24" fill="#3E2723" opacity="0.15"/>
+  <ellipse cx="370" cy="335" rx="120" ry="22" fill="#3E2723" opacity="0.15"/>
+  <ellipse cx="430" cy="325" rx="70" ry="16" fill="#3E2723" opacity="0.12"/>
+
+  <!-- Left Main Orange -->
+  <g filter="url(#softShadow)">
+    <!-- Leaves behind -->
+    <path d="M160 170 C130 110 80 130 65 160 C90 190 145 195 160 170 Z" fill="url(#leafGrad1)"/>
+    <path d="M160 170 C115 155 90 150 70 160" stroke="#1B5E20" stroke-width="2" fill="none"/>
+
+    <path d="M210 165 C220 90 280 80 300 110 C290 150 240 175 210 165 Z" fill="url(#leafGrad2)"/>
+    <path d="M210 165 C240 135 270 115 295 110" stroke="#1B5E20" stroke-width="2" fill="none"/>
+
+    <!-- Orange body -->
+    <circle cx="215" cy="245" r="95" fill="url(#orange1)"/>
+    <!-- Stem & cap -->
+    <ellipse cx="205" cy="155" rx="12" ry="7" fill="#689F38"/>
+    <path d="M205 155 Q200 130 190 120" stroke="#4E342E" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <!-- Surface texture and highlight -->
+    <ellipse cx="175" cy="200" rx="35" ry="18" fill="#FFF3E0" opacity="0.3" transform="rotate(-30 175 200)"/>
+    <circle cx="150" cy="240" r="1.5" fill="#BF360C" opacity="0.4"/>
+    <circle cx="170" cy="270" r="1.5" fill="#BF360C" opacity="0.4"/>
+    <circle cx="230" cy="290" r="1.5" fill="#BF360C" opacity="0.4"/>
+    <circle cx="260" cy="230" r="1.5" fill="#BF360C" opacity="0.4"/>
+  </g>
+
+  <!-- Right Orange (Behind half slice) -->
+  <g filter="url(#softShadow)">
+    <circle cx="360" cy="235" r="85" fill="url(#orange2)"/>
+    <path d="M375 155 C400 95 460 100 480 130 C460 165 410 170 375 155 Z" fill="url(#leafGrad1)"/>
+    <path d="M375 155 C420 135 450 125 475 130" stroke="#1B5E20" stroke-width="2" fill="none"/>
+    <ellipse cx="330" cy="195" rx="28" ry="14" fill="#FFF3E0" opacity="0.25" transform="rotate(-25 330 195)"/>
+  </g>
+
+  <!-- Front Cut Orange Half (Citrus Wheel) -->
+  <g filter="url(#softShadow)" transform="translate(390, 260) rotate(-15)">
+    <!-- Rind / Peel -->
+    <circle cx="0" cy="0" r="68" fill="#EF6C00"/>
+    <circle cx="0" cy="0" r="62" fill="#FFE082"/>
+    <circle cx="0" cy="0" r="54" fill="#FF9800"/>
+
+    <!-- 10 Pulp Segments -->
+    <!-- Segment 1 -->
+    <path d="M0 0 L-6 -48 A50 50 0 0 1 12 -47 Z" fill="url(#slicePulp)"/>
+    <!-- Segment 2 -->
+    <path d="M0 0 L20 -44 A50 50 0 0 1 38 -31 Z" fill="url(#slicePulp)"/>
+    <!-- Segment 3 -->
+    <path d="M0 0 L43 -24 A50 50 0 0 1 48 -6 Z" fill="url(#slicePulp)"/>
+    <!-- Segment 4 -->
+    <path d="M0 0 L48 10 A50 50 0 0 1 38 29 Z" fill="url(#slicePulp)"/>
+    <!-- Segment 5 -->
+    <path d="M0 0 L32 37 A50 50 0 0 1 14 47 Z" fill="url(#slicePulp)"/>
+    <!-- Segment 6 -->
+    <path d="M0 0 L-4 48 A50 50 0 0 1 -24 43 Z" fill="url(#slicePulp)"/>
+    <!-- Segment 7 -->
+    <path d="M0 0 L-33 36 A50 50 0 0 1 -46 20 Z" fill="url(#slicePulp)"/>
+    <!-- Segment 8 -->
+    <path d="M0 0 L-48 9 A50 50 0 0 1 -47 -12 Z" fill="url(#slicePulp)"/>
+    <!-- Segment 9 -->
+    <path d="M0 0 L-40 -27 A50 50 0 0 1 -23 -42 Z" fill="url(#slicePulp)"/>
+
+    <!-- Center core & membrane -->
+    <circle cx="0" cy="0" r="9" fill="#FFF9C4"/>
+    <circle cx="0" cy="0" r="5" fill="#FFFDE7"/>
+  </g>
+
+  <!-- Tag badge: Vidarbha GI Heritage -->
+  <g transform="translate(40, 42)">
+    <rect width="180" height="34" rx="17" fill="#2E7D32" opacity="0.95"/>
+    <circle cx="20" cy="17" r="7" fill="#C8E6C9"/>
+    <path d="M17 17 L19 20 L24 14" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <text x="36" y="22" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">100% VIDARBHA GI</text>
+  </g>
+</svg>
